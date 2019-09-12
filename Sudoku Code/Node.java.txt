@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Sudoku;
+
+
+/**
+ *
+ * @author Admin
+ */
+public class Node {
+   int[][] state;
+    Node s1,s2,s3,s4,s5,s6,s7,s8,s9;
+    
+    Node(int[][] arr){
+        state = arr;
+        s1 = null;
+        s2 = null;
+        s3 = null;
+        s4 = null;
+        s5 = null;
+        s6 = null;
+        s7 = null;
+        s8 = null;
+        s9 = null;
+    } 
+}
